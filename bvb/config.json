@@ -1,0 +1,12 @@
+{
+    "symbols":["ARS", "SCD", "EL", "EBS", "DIGI", "BRD", "PBK", "ALU", "CBC", "RPH", "SIF4", "ATB", "SAFE", "AROBS", "TLV", "ALR", "H2O", "TRANSI", "TEL", "COTE", "PE", "INFINITY", "RRC", "AAG", "BRK", "SMTL", "BNET", "ROCE", "ONE", "TRP", "SNG", "TGN", "SOCP", "TTS", "FP", "TBM", "M", "EVER", "SFG", "UCM", "RMAH", "BIO", "SNP", "AQ", "WINE", "MECE", "SNN", "CRC", "LION", "IMP", "TBK", "BVB", "CMF"],
+    "download_directory": "/Users/laur/Downloads",
+    "database": {
+        "dbname": "bvb",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "port": "5432"
+    }
+}
+
