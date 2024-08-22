@@ -1,3 +1,8 @@
+# Download BVB history data
+Download the data from [BVB LINK](https://www.bvb.ro/FinancialInstruments/Details/FinancialInstrumentsDetails.aspx?s=UZT) and upload it to a postgres database.
+
+### Create the database table
+```sql
 CREATE TABLE istoric_tranzactionare (
     id SERIAL PRIMARY KEY,
     data DATE,
@@ -13,3 +18,9 @@ CREATE TABLE istoric_tranzactionare (
     variatie NUMERIC,
     simbol VARCHAR(10)
 );
+```
+
+### Run script to download the data from bvb and upload to database
+```sh
+pip3 install -r requirements.txt
+```
