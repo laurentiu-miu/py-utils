@@ -2,4 +2,4 @@ selenium
 webdriver-manager
 pyperclip
 psycopg2
-
+pandas
