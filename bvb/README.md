@@ -20,7 +20,13 @@ CREATE TABLE istoric_tranzactionare (
 );
 ```
 
-### Run script to download the data from bvb and upload to database
+### Install requierments for upload and download
 ```sh
 pip3 install -r requirements.txt
+```
+
+### Run script to download the data from bvb and upload to database
+```sh
+python script.py
+python fetch_data.py
 ```
