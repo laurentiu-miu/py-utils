@@ -1,0 +1,4 @@
+playwright
+pyperclip
+psycopg2-binary
+pandas
